@@ -21,8 +21,6 @@ htop
 hyper
 hyper
 kdeglobals
-kitty
-kitty.conf
 Kitware
 libfm
 mc
@@ -98,7 +96,6 @@ init.lua
 nextjs-nodejs/config.json
 pulse/fcf54cb2e64146ed87fe0d1079658c04-device-volumes.tdb
 pulse/fcf54cb2e64146ed87fe0d1079658c04-stream-volumes.tdb
-scripts
 pulse/fcf54cb2e64146ed87fe0d1079658c04-stream-volumes.tdb
 pulse/fcf54cb2e64146ed87fe0d1079658c04-stream-volumes.tdb
 pulse/fcf54cb2e64146ed87fe0d1079658c04-stream-volumes.tdb
