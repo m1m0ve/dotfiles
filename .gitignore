@@ -116,3 +116,8 @@ pulse
 pulse
 pulse
 init.lua
+TabNine/monitoring
+TabNine/defaults
+TabNine/defaults/global_restart_status.prefs.json
+TabNine/defaults/tabnine_version_4.4.250.prefs.json
+TabNine/monitoring/11976-TabNine
