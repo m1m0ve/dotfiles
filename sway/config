@@ -184,6 +184,8 @@ bindsym $mod+r mode "resize"
 bar {
 	#status_command i3status| ~/.config/i3/i3spotifystatus/pystatus.py
        status_command i3status
+       position top
+
 }
 # Screenshots
 exec --no-startup-id flameshot
@@ -193,7 +195,7 @@ bindsym Print exec "flameshot gui"
 for_window [class="^.*"] border pixel 2
 
 # Set inner/outer gaps
-gaps inner 7
+gaps inner 10
 gaps outer 2
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
@@ -287,7 +289,11 @@ exec --no-startup-id python /home/space/.config/i3-alternating-layout/alternatin
 
 # Start Picom compositor
 exec --no-startup-id weston
-exec --no-startup-id setxkbmap -layout gb
  input * {
         xkb_layout "gb"
 }
+output eDP-1 scale 1.0
+output DP-2  scale 1.0
+
+xwayland force
+exec 'echo "*.dpi: 200" | xrdb -merge'
