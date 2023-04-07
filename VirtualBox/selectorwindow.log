@@ -1,0 +1,38 @@
+00:00:00.350041 VirtualBox GUI VM Selector Window 7.0.6 r155176 linux.amd64 (Feb 22 2023 15:36:54) release log
+00:00:00.350042 Log opened 2023-04-06T20:46:55.404180000Z
+00:00:00.350043 Build Type: release
+00:00:00.350044 OS Product: Linux
+00:00:00.350044 OS Release: 6.2.8-arch1-1
+00:00:00.350045 OS Version: #1 SMP PREEMPT_DYNAMIC Wed, 22 Mar 2023 22:52:35 +0000
+00:00:00.350057 DMI Product Name: XPS 15 9520
+00:00:00.350061 DMI Product Version: 
+00:00:00.350064 Firmware type: UEFI
+00:00:00.351134 Secure Boot: Disabled
+00:00:00.351174 Host RAM: 31769MB (31.0GB) total, 31007MB (30.2GB) available
+00:00:00.351178 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.351179 Process ID: 2594
+00:00:00.351179 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.351215 Qt version: 5.15.8
+00:00:00.352611 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.358890 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.663085 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 3855x15 x 608x656
+00:00:00.683197 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 4485x15 x 608x317
+00:00:00.690887 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:03.808510 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:00:28.720343 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:29.440031 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:07.598638 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:10.903429 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:11.894138 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:12.884786 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:14.185140 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:15.399155 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:17.106093 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:18.009079 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:19.978221 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:20.694235 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:22.579720 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:32.909922 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:33.708272 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:23.070348 GUI: UICommon: Handling aboutToQuit request..
+00:02:23.698583 GUI: UICommon: aboutToQuit request handled!

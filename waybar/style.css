@@ -1,0 +1,99 @@
+* {
+    font-family: caskaydiacove nerd font, material design icons;
+    font-size: 15px;
+}
+
+window#waybar {
+    background: rgba(22, 24, 36, 0.6);
+
+}
+
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#workspaces,
+#cpu,
+#memory,
+#tray,
+#mpd,
+#taskbar,
+#backlight {
+    background: rgba(26, 27, 26, 0.4);
+    padding: 1px 15px;
+    margin: 10px 10px;
+    border-radius: 20px;
+}
+
+#workspaces {
+    background: transparent;
+}
+
+#workspaces button {
+    color: #c8d3f5;
+}
+
+#workspaces button.active {
+    color: #ffc777;
+}
+
+#clock {
+    color: #fab387;
+}
+
+#network {
+    color: #f9e2af;
+}
+
+#cpu {
+    min-width: 70px;
+    color: #33e3ff;
+}
+
+#memory {
+    color: #ff966c;
+    min-width: 130px;
+}
+
+#pulseaudio {
+    color: #9d7cd8;
+    min-width: 70px;
+}
+
+#backlight {
+    color: #33ff6b;
+    min-width: 70px;
+}
+
+#network {
+    color: #4affa5;
+    background: transparent;
+}
+
+#battery {
+    color: #a6e3a1;
+    min-width: 70px;
+}
+
+#network.disconnected,
+#battery.discharging,
+#cpu.warning,
+#memory.warning {
+    color: #ff757f;
+}
+
+#mpd {
+    color: #a6e3a1;
+    background: transparent;
+}
+
+#mpd.disconnected,
+#nework.disconnected
+{
+    color: #a9b1d6;
+}
+
+tooltip {
+    background: #1e1e2e;
+    border-radius: 15px;
+}
