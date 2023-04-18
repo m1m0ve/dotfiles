@@ -9,7 +9,6 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 set $mod Mod4
-
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 #font pango:monospace 10
@@ -188,7 +187,7 @@ exec --no-startup-id flameshot
 bindsym Print exec "flameshot gui"
 
 # Disable window titlebars entirely
-for_window [class="^.*"] border pixel 6
+for_window [class="^.*"] border pixel 3
 
 # Set inner/outer gaps
 gaps inner 10
@@ -244,8 +243,7 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-exec_always feh --bg-scale /home/space/Downloads/spaceman.jpg
+exec_always feh --bg-scale /home/space/Documents/wallpaper.jpeg
 
 # Sreen brightness controls
 # bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
@@ -284,3 +282,8 @@ exec --no-startup-id dbus-update-activation-environment --systemd DBUS_SESSION_B
 # set desktop background with custom effect
 exec --no-startup-id betterlockscreen -w dim
 bindsym $mod+shift+o exec betterlockscreen -- --blur 5 -l dim
+exec --no-startup-id albert
+
+for_window[class="albert"] border none
+for_window[class="Alacritty"] border none
+for_window[class="firefoxdeveloperedition"] border none
