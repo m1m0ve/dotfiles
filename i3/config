@@ -187,11 +187,11 @@ exec --no-startup-id flameshot
 bindsym Print exec "flameshot gui"
 
 # Disable window titlebars entirely
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 3
 
 # Set inner/outer gaps
-#gaps inner 10
-#gaps outer 5
+gaps inner 10
+gaps outer 5
 
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>
@@ -280,24 +280,10 @@ exec --no-startup-id aeiou
 exec --no-startup-id dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY
 
 # set desktop background with custom effect
-set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
-mode "$mode_system" {
-    bindsym l exec --no-startup-id i3exit lock, mode "default"
-    bindsym e exec --no-startup-id i3exit logout, mode "default"
-    bindsym s exec --no-startup-id i3exit suspend, mode "default"
-    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
-    bindsym r exec --no-startup-id i3exit reboot, mode "default"
-    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
-
-    # back to normal: Enter or Escape
-    bindsym Return mode "default"
-    bindsym Escape mode "default"
-}
-bindsym $mod+shift+o mode "$mode_system"
-
+exec --no-startup-id betterlockscreen -w dim
+bindsym $mod+shift+o exec betterlockscreen -- --blur 5 -l dim
 exec --no-startup-id albert
 
 for_window[class="albert"] border none
 for_window[class="Alacritty"] border none
 for_window[class="firefoxdeveloperedition"] border none
-

@@ -49,6 +49,8 @@ systemd
 vlc
 'YouTube Music'
 zulip
+
+TabNine
 TabNine
 TabNine/4.4.250
 TabNine/defaults
@@ -116,29 +118,3 @@ TabNine/defaults
 TabNine/defaults/global_restart_status.prefs.json
 TabNine/defaults/tabnine_version_4.4.250.prefs.json
 TabNine/monitoring/11976-TabNine
-Codux
-Postman
-Rasberry Pi
-Scrivener/
-Thunar/renamerrc
-Trolltech.conf
-YouTube Music/
-Zulip/
-albert.conf
-albert/
-autostart/
-balena-etcher/
-bin/
-broot/
-configstore/
-dolphinrc
-ghc/
-kconf_updaterc
-kde.org/UserFeedback.org.kde.dolphin.conf
-manuskript/
-microsoft-edge/
-planetscale/
-session/
-trashrc
-viewnior/
-
